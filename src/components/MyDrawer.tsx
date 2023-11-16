@@ -44,9 +44,7 @@ export default function MyDrawer() {
           {/* <ListItem>
             <ListItemButton>
               <a className="flex flex-row items-center" href="#">
-                <ListItemIcon>
                   <DownloadForOfflineIcon className="h-7 w-7 fill-white" />
-                </ListItemIcon>
                 Resume
               </a>
             </ListItemButton>

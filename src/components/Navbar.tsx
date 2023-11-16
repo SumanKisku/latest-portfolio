@@ -1,6 +1,7 @@
 "use client";
-import { ArrowDownTrayIcon, PencilIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import CreateIcon from "@mui/icons-material/Create";
+import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import MyDrawer from "./MyDrawer";
 
 export default function Navbar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
         {/* <li>
           <a className="flex flex-row justify-center items-center" href="#">
             Blog
-            <PencilIcon className="w-5 h-5 ml-1 stroke-[3px]" color="#d9d9d9" />
+            <CreateIcon className="ml-1"/>
           </a>
         </li> */}
         <li>
@@ -23,24 +24,14 @@ export default function Navbar() {
             href="https://github.com/SumanKisku"
           >
             Github
-            <Image
-              src="/github.svg"
-              alt="Github logo svg"
-              className="w-5 h-5 ml-1"
-              width={10}
-              height={10}
-              priority
-            />
+            <GitHubIcon className="ml-1" />
           </a>
         </li>
         {/* TODO: Upload resume on google drive */}
         {/* <li>
           <a className="flex flex-row justify-center items-center" href="#">
             Resume
-            <ArrowDownTrayIcon
-              className="w-5 h-5 ml-1 stroke-[3px]"
-              color="#d9d9d9"
-            />
+            <DownloadForOfflineIcon className="ml-1" />
           </a>
         </li> */}
       </ul>

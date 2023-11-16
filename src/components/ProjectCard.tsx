@@ -1,5 +1,5 @@
-import { GlobeAltIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
+import LaunchIcon from "@mui/icons-material/Launch";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 interface Post {
   title: string;
@@ -37,17 +37,10 @@ export default function ProjectCard({
         </div>
         <div className="flex flex-col py-4 space-y-4 md:flex-row md:space-y-0 md:space-x-4 justify-center items-center w-1/5">
           <a href={`${deploy_link}`} target="_blank">
-            <GlobeAltIcon className="h-8 w-8" />
+            <LaunchIcon className="h-8 w-8" />
           </a>
           <a href={`${github_link}`} target="_blank">
-            <Image
-              src="/github.svg"
-              alt="Github Logo"
-              className="h-8 w-8"
-              width={32}
-              height={32}
-              priority
-            />
+            <GitHubIcon className="h-8 w-8" />
           </a>
         </div>
       </div>

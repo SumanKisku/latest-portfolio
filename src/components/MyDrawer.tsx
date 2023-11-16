@@ -1,5 +1,7 @@
-import { Bars3Icon } from "@heroicons/react/20/solid";
-import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
+import MenuIcon from "@mui/icons-material/Menu";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
+
 import {
   Drawer,
   List,
@@ -24,7 +26,7 @@ export default function MyDrawer() {
         className="absolute z-10 right-3 top-8"
         onClick={() => toggleDrawer()}
       >
-        <Bars3Icon className="h-8 w-8 md:hidden" color="#fff" />
+        <MenuIcon className="h-8 w-8 md:hidden" />
       </button>
       <Drawer open={state} onClose={() => toggleDrawer()}>
         <List className="bg-black text-white h-full">
@@ -35,14 +37,7 @@ export default function MyDrawer() {
                 href="https://github.com/SumanKisku"
               >
                 <ListItemIcon>
-                  <Image
-                    src="/github.svg"
-                    alt="Github logo svg"
-                    className="w-5 h-5 ml-1"
-                    width={10}
-                    height={10}
-                    priority
-                  />
+                  <GitHubIcon className="h-7 w-7 fill-white" />
                 </ListItemIcon>
                 Github
               </a>
@@ -53,10 +48,7 @@ export default function MyDrawer() {
             <ListItemButton>
               <a className="flex flex-row items-center" href="#">
                 <ListItemIcon>
-                  <ArrowDownTrayIcon
-                    className="w-5 h-5 ml-1 stroke-[3px]"
-                    color="#d9d9d9"
-                  />
+                  <DownloadForOfflineIcon className="h-7 w-7 fill-white" />
                 </ListItemIcon>
                 Resume
               </a>

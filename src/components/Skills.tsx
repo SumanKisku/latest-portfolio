@@ -11,10 +11,6 @@ const skills = [
   "Problem Solving",
 ];
 
-interface Skill {
-    title: string,
-}
-
 export default function Skills() {
     return (
       <div className="p-4">

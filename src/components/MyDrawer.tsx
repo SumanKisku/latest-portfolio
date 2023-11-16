@@ -23,10 +23,10 @@ export default function MyDrawer() {
   return (
     <>
       <button
-        className="absolute z-10 right-3 top-8"
+        className="absolute z-10 right-3 top-8 md:hidden"
         onClick={() => toggleDrawer()}
       >
-        <MenuIcon className="h-8 w-8 md:hidden" />
+        <MenuIcon className="h-8 w-8" />
       </button>
       <Drawer open={state} onClose={() => toggleDrawer()}>
         <List className="bg-black text-white h-full">

@@ -9,7 +9,6 @@ import {
   ListItemButton,
   ListItemIcon,
 } from "@mui/material";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function MyDrawer() {
@@ -36,9 +35,7 @@ export default function MyDrawer() {
                 className="flex flex-row items-center"
                 href="https://github.com/SumanKisku"
               >
-                <ListItemIcon>
-                  <GitHubIcon className="h-7 w-7 fill-white" />
-                </ListItemIcon>
+                  <GitHubIcon className="h-7 w-7 fill-white mr-1" />
                 Github
               </a>
             </ListItemButton>

@@ -19,7 +19,7 @@ export default function Skills() {
             {
                 skills.map((skill) => {
                     return (
-                      <div key={skill} className="px-3 py-2 bg-[#1c1b1b] rounded-lg text-white text-sm">
+                      <div key={skill} className="px-3 py-2 bg-[#1c1b1b] whitespace-nowrap rounded-lg text-white text-sm">
                         {skill}
                       </div>
                     );

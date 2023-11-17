@@ -34,21 +34,25 @@ export default function MyDrawer() {
               <a
                 className="flex flex-row items-center"
                 href="https://github.com/SumanKisku"
+                target="_blank"
               >
-                  <GitHubIcon className="h-7 w-7 fill-white mr-1" />
+                <GitHubIcon className="h-7 w-7 fill-white mr-1" />
                 Github
               </a>
             </ListItemButton>
           </ListItem>
-          {/* TODO: Upload resume on google drive */}
-          {/* <ListItem>
+          <ListItem>
             <ListItemButton>
-              <a className="flex flex-row items-center" href="#">
-                  <DownloadForOfflineIcon className="h-7 w-7 fill-white" />
+              <a
+                className="flex flex-row items-center"
+                href="https://t.ly/oKODV"
+                target="_blank"
+              >
+                <DownloadForOfflineIcon className="h-7 w-7 fill-white" />
                 Resume
               </a>
             </ListItemButton>
-          </ListItem> */}
+          </ListItem>
         </List>
       </Drawer>
     </>

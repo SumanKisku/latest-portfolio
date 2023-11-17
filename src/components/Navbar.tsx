@@ -22,18 +22,22 @@ export default function Navbar() {
           <a
             className="flex flex-row justify-center items-center"
             href="https://github.com/SumanKisku"
+            target="_blank"
           >
             Github
             <GitHubIcon className="ml-1" />
           </a>
         </li>
-        {/* TODO: Upload resume on google drive */}
-        {/* <li>
-          <a className="flex flex-row justify-center items-center" href="#">
+        <li>
+          <a
+            className="flex flex-row justify-center items-center"
+            href="https://t.ly/oKODV"
+            target="_blank"
+          >
             Resume
             <DownloadForOfflineIcon className="ml-1" />
           </a>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );

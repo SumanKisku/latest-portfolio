@@ -31,7 +31,7 @@ export default function Navbar() {
         <li>
           <a
             className="flex flex-row justify-center items-center"
-            href="https://t.ly/oKODV"
+            href="https://rxresu.me/sumankisku1/sumankisku-resume"
             target="_blank"
           >
             Resume

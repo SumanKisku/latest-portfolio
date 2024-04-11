@@ -1,3 +1,11 @@
+export interface Project {
+    title: string;
+    description: string;
+    github_link: string;
+    deploy_link: string;
+    keywords: string[];
+}
+
 export const projects = [
     {
         title: "React E-commerce website",

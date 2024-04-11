@@ -5,7 +5,7 @@ import { projects } from "@/data/projects";
 export default function Projects() {
   return (
     <div className="p-4">
-      <h2 className="font-bold text-xl mb-3">&lt;Projects&gt;</h2>
+      <h2 className="font-extrabold text-xl mb-3">&lt;Projects&gt;</h2>
       {
         projects.map(({ title, description, github_link, deploy_link, keywords}) => {
           return (

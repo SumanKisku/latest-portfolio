@@ -1,13 +1,6 @@
 import LaunchIcon from "@mui/icons-material/Launch";
 import GitHubIcon from "@mui/icons-material/GitHub";
-
-interface Post {
-  title: string;
-  description: string;
-  github_link: string;
-  deploy_link: string;
-  keywords: string[];
-}
+import { Project } from "@/data/projects";
 
 export default function ProjectCard({
   title,
@@ -15,7 +8,7 @@ export default function ProjectCard({
   github_link,
   deploy_link,
   keywords,
-}: Post) {
+}: Project) {
   return (
     <div className="gradient-border mb-3 bg-[#1c1b1b]">
       <div className="flex flex-row">

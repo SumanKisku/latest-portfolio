@@ -7,7 +7,10 @@ const skills = [
   "Git",
   "Tailwind CSS",
   "React JS",
+  "Redux",
   "RESTful APIs",
+  "Node JS",
+  "MongoDB",
   "Problem Solving",
 ];
 

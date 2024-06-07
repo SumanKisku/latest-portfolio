@@ -6,10 +6,10 @@ const skills = [
   "Responsive Web Development",
   "Git",
   "Tailwind CSS",
-  "React JS",
+  "ReactJS",
   "Redux",
   "RESTful APIs",
-  "Node JS",
+  "Node.js",
   "MongoDB",
   "Problem Solving",
 ];

@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import CreateIcon from "@mui/icons-material/Create";
 import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
 import MyDrawer from "./MyDrawer";
+import { Bookmark } from "@mui/icons-material";
 
 export default function Navbar() {
   return (
@@ -12,12 +13,16 @@ export default function Navbar() {
         <MyDrawer />
       </header>
       <ul className="hidden font-medium md:flex flex-row space-x-4 ">
-        {/* <li>
-          <a className="flex flex-row justify-center items-center" href="#">
+        <li>
+          <a
+            className="flex flex-row justify-center items-center"
+            href="https://sumankisku.substack.com/"
+            target="_blank"
+          >
             Blog
-            <CreateIcon className="ml-1"/>
+            <Bookmark className="ml-1" />
           </a>
-        </li> */}
+        </li>
         <li>
           <a
             className="flex flex-row justify-center items-center"

@@ -10,6 +10,7 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import { useState } from "react";
+import { Bookmark } from "@mui/icons-material";
 
 export default function MyDrawer() {
   const [state, setState] = useState(false);
@@ -29,6 +30,18 @@ export default function MyDrawer() {
       </button>
       <Drawer open={state} onClose={() => toggleDrawer()}>
         <List className="bg-black text-white h-full">
+          <ListItem>
+            <ListItemButton>
+              <a
+                className="flex flex-row items-center"
+                href="https://sumankisku.substack.com/"
+                target="_blank"
+              >
+                <Bookmark className="h-7 w-7 fill-white mr-1" />
+                Blog
+              </a>
+            </ListItemButton>
+          </ListItem>
           <ListItem>
             <ListItemButton>
               <a
